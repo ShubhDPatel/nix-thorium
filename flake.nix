@@ -12,7 +12,7 @@
     packages.x86_64-linux = let
       pkgs = import nixpkgs {system = "x86_64-linux";};
     in {
-      thorium-avx = let
+      thorium-avx2 = let
         pkgs = import nixpkgs {system = "x86_64-linux";};
         name = "thorium-avx2";
         version = "122.0.6261.132 - 56";
@@ -32,7 +32,7 @@
           '';
         };
 
-      thorium-avx2 = let
+      thorium-avx = let
         pkgs = import nixpkgs {system = "x86_64-linux";};
         name = "thorium-avx";
         version = "122.0.6261.132 - 56";
