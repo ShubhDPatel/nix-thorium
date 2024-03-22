@@ -37,7 +37,7 @@
         name = "thorium-avx2";
         version = "122.0.6261.132 - 56";
         src = pkgs.fetchurl {
-          url = "https://github.com/Alex313031/thorium/releases/download/M122.0.6261.132/thorium_browser_122.0.6261.132_AVX2.AppImage";
+          url = "https://github.com/Alex313031/thorium/releases/download/M122.0.6261.132/Thorium_Browser_122.0.6261_AVX2.AppImage";
           sha256 = "sha256-HANrDUv/oFW2uWLSYilTCzdnZDY1yuqhLo/jRQil3QA=";
         };
         appimageContents = pkgs.appimageTools.extractType2 {inherit name src;};
